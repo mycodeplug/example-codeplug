@@ -21,9 +21,16 @@ codeplugs will be generated.
 If you forked this repo, first click the "Actions" tab and
 enable Github Actions for your fork.
 
+To use Repeaterbook, go to [Settings > Secrets](settings/secrets/actions)
+and add `REPEATERBOOK_USER` and `REPEATERBOOK_PASSWD` with your
+repeaterbook account credentials.
+
 Any changes pushed to this repository will trigger an
 automatic rebuild of all codeplugs in `input` that have
 an executable `generate.sh` file.
+
+Creating a [release](releases) will cause Github Actions to
+upload a `.zip` containing all of the generated codeplugs.
 
 ### Manual
 
