@@ -41,8 +41,8 @@ codeplugs will be generated.
 
 ### Github Actions
 
-* Fork this repo
-  * In the newly forked repo, click the "Actions" tab and
+* [Fork this repo](../../fork)
+  * In the newly forked repo, click the ["Actions" tab](../../actions) and
     enable Github Actions for your fork.
 * customize codeplug input files in [`/input/default`](./input/default)
   * [`example-md-uv380.json`](./input/default/example-md-uv380.json):
