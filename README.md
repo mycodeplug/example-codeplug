@@ -46,16 +46,20 @@ codeplugs will be generated.
     enable Github Actions for your fork.
 * customize [`generate.sh`](./input/default/generate.sh) and other
   files in [`/input/default`](./input/default)
-  * `example-md-uv380.json`: set your Radio ID and Radio Name
-    * Copy templates from [default-tyt-md380](https://github.com/mycodeplug/dzcb/blob/main/codeplug/default-tyt-md380) for
-      monoband variants.
-  * `order.json`: preferred zone order, zone exclusion, preferred talkgroup order
-  * `scanlists.json`: additional scanlists
+  * [`example-md-uv380.json`](./input/default/example-md-uv380.json):
+    set your Radio ID and Radio Name
+    * Copy templates from
+      [default-tyt-md380](https://github.com/mycodeplug/dzcb/blob/main/codeplug/default-tyt-md380)
+      for monoband variants.
+  * [`order.json`](./input/default/order.json): preferred zone order,
+    zone exclusion, preferred talkgroup order
+  * [`scanlists.json`](./input/default/scanlists.json): additional scanlists
 * To use Repeaterbook, go to [Settings > Secrets](../../settings/secrets/actions)
   and set the following variables:
   * REPEATERBOOK_USER
   * REPEATERBOOK_PASSWD
-  * `prox.csv`: customize zones
+  * [`prox.csv`](./input/default/prox.csv): customize points of
+    interest, distances, and desired bands
 * Github [`codeplugs`](.github/workflows/codeplugs.yml) workflow
   will automatically build all codeplugs in the [`input`](./input) directory.
 * When a [Release](../../releases) is published, the generated
