@@ -6,9 +6,9 @@ python -m dzcb \
     --pnwdigital \
     --seattledmr \
     --default-k7abd \
-    --repeaterbook-proximity-csv $DIR/prox.csv \
+    --repeaterbook-proximity-csv "$DIR/prox.csv" \
     --k7abd $DIR/k7abd \
-    --farnsworth-template-json $DIR/kf7hvm-md-uv380.json \
-    --scanlists-json $DIR/scanlists.json \
-    --order-json $DIR/order.json \
-$OUTPUT/kf7hvm
+    --farnsworth-template-json "$DIR/example-md-uv380.json" \
+    --scanlists-json "$DIR/scanlists.json" \
+    --order-json "$DIR/order.json" \
+$OUTPUT/$(basename "$DIR")
