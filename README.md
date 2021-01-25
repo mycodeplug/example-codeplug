@@ -3,12 +3,30 @@
 Generate DMR codeplugs from a variety of online sources using
 [dzcb](https://github.com/mycodeplug/dzcb).
 
-## Requirements
+## Data Sources
 
-* linux or macOS (windows not yet supported)
-* python 3.5+ (python 3.8 recommended)
-* [tox](https://tox.readthedocs.io/en/latest/)
-* [dzcb](https://github.com/mycodeplug/dzcb)
+### [PNWdigital.net](http://PNWDigital.net)
+
+**Before using this network, please read the [quick start](http://www.pnwdigital.net/quick-start.html)**
+
+### [SeattleDMR](https://seattledmr.org/)
+
+**Before using these repeaters, please read the [website](https://seattledmr.org)**
+
+### Repeaterbook Proximity
+
+**[Repeaterbook](http://repeaterbook.com) account is required to access this endpoint**
+
+### [Local](https://github.com/mycodeplug/dzcb/blob/main/src/dzcb/data/k7abd/Digital-Repeaters__Local.csv)
+
+Information on these Western Washington standalone DMR repeaters was
+retrieved from Repeaterbook and respective websites in 2020 October.
+
+### Simplex, GMRS, etc
+
+Some common [Digital](https://github.com/mycodeplug/dzcb/blob/main/src/dzcb/data/k7abd/Digital-Others__Simplex.csv)
+and [Analog](https://github.com/mycodeplug/dzcb/blob/main/src/dzcb/data/k7abd/Analog__Simplex.csv) simplex frequencies,
+and [GMRS/FRS and MURS channels](https://github.com/mycodeplug/dzcb/blob/main/src/dzcb/data/k7abd/Analog__Unlicensed.csv) are included.
 
 ## Editing
 
@@ -44,6 +62,12 @@ codeplugs will be generated.
   codeplugs will be hosted publicly with a stable URL.
 
 ### Manual
+
+#### Requirements
+
+* linux or macOS (windows not yet supported)
+* python 3.5+ (python 3.8 recommended)
+* [tox](https://tox.readthedocs.io/en/latest/)
 
 ```
 pip install tox
