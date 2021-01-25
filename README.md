@@ -45,7 +45,7 @@ codeplugs will be generated.
   * In the newly forked repo, click the ["Actions" tab](../../actions) and
     enable Github Actions for your fork.
 * customize codeplug input files in [`/input/default`](./input/default)
-  * [`example-md-uv380.json`](./input/default/example-md-uv380.json):
+  * [`example-md-uv380.json`](./input/default/example-md-uv380.json#L189-L193):
     set your Radio ID and Radio Name
     * Copy templates from
       [default-tyt-md380](https://github.com/mycodeplug/dzcb/blob/main/codeplug/default-tyt-md380)
