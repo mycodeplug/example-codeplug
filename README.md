@@ -44,9 +44,9 @@ codeplugs will be generated.
 * Fork this repo
   * In the newly forked repo, click the "Actions" tab and
     enable Github Actions for your fork.
-* Rename `input/kf7hvm` to `input/your-call`
-* customize generate.sh and other files
-  * `kf7hvm-md-uv380.json`: set your Radio ID and Radio Name
+* customize [`generate.sh`](./input/default/generate.sh) and other
+  files in [`/input/default`](./input/default)
+  * `example-md-uv380.json`: set your Radio ID and Radio Name
     * Copy templates from [default-tyt-md380](https://github.com/mycodeplug/dzcb/blob/main/codeplug/default-tyt-md380) for
       monoband variants.
   * `order.json`: preferred zone order, zone exclusion, preferred talkgroup order
