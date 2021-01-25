@@ -17,8 +17,7 @@ Create / edit codeplug source files under [`/input`](/input).
 If multiple subdirectories exist under `/input`, then multiple
 codeplugs will be generated.
 
-### See [dzcb README.md](https://github.com/mycodeplug/dzcb#dzcb) for
-more information on input files and formats.
+### See [dzcb README.md](https://github.com/mycodeplug/dzcb#dzcb) for more information on input files and formats.
 
 ## Generating
 
