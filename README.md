@@ -44,16 +44,21 @@ codeplugs will be generated.
 * Fork this repo
   * In the newly forked repo, click the "Actions" tab and
     enable Github Actions for your fork.
-* customize [`generate.sh`](./input/default/generate.sh) and other
-  files in [`/input/default`](./input/default)
+* customize codeplug input files in [`/input/default`](./input/default)
   * [`example-md-uv380.json`](./input/default/example-md-uv380.json):
     set your Radio ID and Radio Name
     * Copy templates from
       [default-tyt-md380](https://github.com/mycodeplug/dzcb/blob/main/codeplug/default-tyt-md380)
       for monoband variants.
+  * [`k7abd`](./input/default/k7abd): manually defined zones in
+    K7ABD anytone-config-builder format. See N7EKB's
+    [`cps-import-builder` reference data files](https://github.com/n7ekb/cps-import-builder/tree/main/reference_data_files/N7EKB_shared_files)
+    for more examples.
   * [`order.json`](./input/default/order.json): preferred zone order,
     zone exclusion, preferred talkgroup order
   * [`scanlists.json`](./input/default/scanlists.json): additional scanlists
+  * [`generate.sh`](./input/default/generate.sh): options passed to `dzcb` (whether
+    to include PNWDigital, SeattleDMR, default files, etc)
 * To use Repeaterbook, go to [Settings > Secrets](../../settings/secrets/actions)
   and set the following variables:
   * REPEATERBOOK_USER
