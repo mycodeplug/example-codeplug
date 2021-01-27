@@ -39,6 +39,9 @@ codeplugs will be generated.
 
 ## Generating
 
+See [WALKTHROUGH](https://github.com/mycodeplug/dzcb/blob/main/doc/WALKTHROUGH.md#example-codeplug-walkthough)
+for step-by-step instructions.
+
 ### Github Actions
 
 * [Fork this repo](../../fork)
