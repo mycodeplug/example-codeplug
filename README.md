@@ -15,8 +15,6 @@ Generate DMR codeplugs from a variety of online sources using
 
 ### Repeaterbook Proximity
 
-**[Repeaterbook](http://repeaterbook.com) account is required to access this endpoint**
-
 ### [Local](https://github.com/mycodeplug/dzcb/blob/main/src/dzcb/data/k7abd/Digital-Repeaters__Local.csv)
 
 Information on these Western Washington standalone DMR repeaters was
@@ -62,11 +60,7 @@ for step-by-step instructions.
   * [`scanlists.json`](./input/default/scanlists.json): additional scanlists
   * [`generate.sh`](./input/default/generate.sh): options passed to `dzcb` (whether
     to include PNWDigital, SeattleDMR, default files, etc)
-* To use Repeaterbook, go to [Settings > Secrets](../../settings/secrets/actions)
-  and set the following variables:
-  * REPEATERBOOK_USER
-  * REPEATERBOOK_PASSWD
-  * [`prox.csv`](./input/default/prox.csv): customize points of
+* [`prox.csv`](./input/default/prox.csv): customize points of
     interest, distances, and desired bands
 * Github [`codeplugs`](.github/workflows/codeplugs.yml) workflow
   will automatically build all codeplugs in the [`input`](./input) directory.
