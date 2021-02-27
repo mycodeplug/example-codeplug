@@ -11,5 +11,7 @@ python -m dzcb \
     --k7abd $DIR/k7abd \
     --farnsworth-template-json "$DIR/example-md-uv380.json" \
     --order "$DIR/order.csv" \
+    --exclude "$DIR/exclude.csv" \
+    --replacements "$DIR/replacements.csv" \
     --scanlists-json "$DIR/scanlists.json" \
-$OUTPUT/$(basename "$DIR")
+-- "$OUTPUT/$(basename "$DIR")"
