@@ -33,6 +33,18 @@ Create / edit codeplug source files under [`/input`](/input).
 If multiple subdirectories exist under `/input`, then multiple
 codeplugs will be generated.
 
+The [`default`](./input/default) directory contains the example codeplug
+input files along with 2 scripts:
+
+  * [`generate.sh`](./input/default/generate.sh) builds the codeplug with a
+    standard bash shell command.
+  * [`generate.py`](./input/default/generate.py) builds the same codeplug
+    using python code.
+
+Derivative codeplugs don't need to include both scripts. Use the format
+that is most familiar. While the sample scripts show identical functionality,
+the python code could be extended to hack at the generation process itself.
+
 ### See [dzcb README.md](https://github.com/mycodeplug/dzcb#dzcb) for more information on input files and formats.
 
 ## Generating
@@ -51,6 +63,11 @@ for step-by-step instructions.
     * Copy templates from
       [default-tyt-md380](https://github.com/mycodeplug/dzcb/blob/main/codeplug/default-tyt-md380)
       for monoband variants.
+  * [`example-d878uv.conf`](./input/default/example-d878uv.conf):
+    set your Radio ID and Radio Name
+    * See README and templates in
+      [dmrconfig](https://github.com/mycodeplug/dzcb/blob/main/src/dzcb/data/dmrconfig)
+      for more information and other radio types.
   * [`k7abd`](./input/default/k7abd): manually defined zones in
     K7ABD anytone-config-builder format. See N7EKB's
     [`cps-import-builder` reference data files](https://github.com/n7ekb/cps-import-builder/tree/main/reference_data_files/N7EKB_shared_files)
@@ -59,7 +76,7 @@ for step-by-step instructions.
   * [`exclude.csv`](./input/default/exclude.csv): zone, contact, channel exclude
   * [`replacements.csv`](./input/default/replacements.csv): object name replacements (regex)
   * [`scanlists.json`](./input/default/scanlists.json): additional scanlists
-  * [`generate.sh`](./input/default/generate.sh): options passed to `dzcb` (whether
+  * [`generate.py`](./input/default/generate.py): options passed to `dzcb` (whether
     to include PNWDigital, SeattleDMR, default files, etc)
 * [`prox.csv`](./input/default/prox.csv): customize points of
     interest, distances, and desired bands
@@ -76,7 +93,17 @@ for step-by-step instructions.
 * python 3.6+ (python 3.8 recommended)
 * [tox](https://tox.readthedocs.io/en/latest/)
 
+#### Build
+
+To output to a specific directory, set the `OUTPUT` environment variable.
+
 ```
 pip install tox
 tox
+```
+
+To run the `generate.sh` shell scripts
+
+```
+tox -e shell
 ```
