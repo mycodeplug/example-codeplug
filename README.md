@@ -55,8 +55,9 @@ for step-by-step instructions.
     K7ABD anytone-config-builder format. See N7EKB's
     [`cps-import-builder` reference data files](https://github.com/n7ekb/cps-import-builder/tree/main/reference_data_files/N7EKB_shared_files)
     for more examples.
-  * [`order.json`](./input/default/order.json): preferred zone order,
-    zone exclusion, preferred talkgroup order
+  * [`order.csv`](./input/default/order.csv): preferred zone, contact, channel order
+  * [`exclude.csv`](./input/default/exclude.csv): zone, contact, channel exclude
+  * [`replacements.csv`](./input/default/replacements.csv): object name replacements (regex)
   * [`scanlists.json`](./input/default/scanlists.json): additional scanlists
   * [`generate.sh`](./input/default/generate.sh): options passed to `dzcb` (whether
     to include PNWDigital, SeattleDMR, default files, etc)
@@ -71,8 +72,8 @@ for step-by-step instructions.
 
 #### Requirements
 
-* linux or macOS (windows not yet supported)
-* python 3.5+ (python 3.8 recommended)
+* linux, macOS, windows
+* python 3.6+ (python 3.8 recommended)
 * [tox](https://tox.readthedocs.io/en/latest/)
 
 ```
