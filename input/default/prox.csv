@@ -1,4 +1,14 @@
 Zone Name,Lat,Long,Distance,Unit,Band(2m;1.25m;70cm),Use,Operational Status
 McKinney,33.21786,-96.6339,3,miles,2m,OPEN,On-Air
 McKinney,33.21786,-96.6339,3,miles,70cm,OPEN,On-Air
-Anna,33.31786,-96.6339,5,miles,70cm,OPEN,On-Air
+Anna,33.349,-96.5485,12,miles,70cm,OPEN,On-Air
+Farmersville,33.16344,-96.3599,17,miles,70cm,OPEN,On-Air
+Allen,33.1031,-96.6709,7,miles,70cm,OPEN,On-Air
+Plano,33.0196,-96.6992,14,miles,70cm,OPEN,On-Air
+Fairview,33.1579,-96.63166,3,miles,70cm,OPEN,On-Air
+Murphy,33.01512,-96.61305,13,miles,70cm,OPEN,On-Air
+Richardson,32.94818,-96.72972,18,miles,70cm,OPEN,On-Air
+Melissa,33.28595,-96.57277,12,miles,70cm,OPEN,On-Air
+Celina,33.32593,-96.7792,11,miles,70cm,OPEN,On-Air
+Prosper,33.23623,-96.80111,6,miles,70cm,OPEN,On-Air
+Dallas,32.78306,-96.80667,20,miles,70cm,OPEN,On-Air
