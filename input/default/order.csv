@@ -1,10 +1,9 @@
 zones,contacts,channels
-PNWDigital,Oregon 1,Rainier Hill
-Hotspot,Washington 1,DPHS Static
-Local,Washington 2,DPHS Wide
-SeattleDMR,Cascades 1,
-Longview WA VHF 35mi,Local 1,
-Longview WA UHF 35mi,Local 2,
+Hotspot,Texas 1,DPHS Static
+Local,Texas 2,DPHS Wide
+Texas,Cascades 1,
+North Texas,Local 1,
+Arkansas,Local 2,
 Simplex A VHF,Parrot 1,
 Simplex A UHF,,
 Simplex D VHF,,
