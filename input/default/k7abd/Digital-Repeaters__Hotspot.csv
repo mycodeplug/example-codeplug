@@ -1,3 +1,3 @@
-Zone Name,Comment,Power,RX Freq,TX Freq,Color Code,Local,Local-Cluster,N.Texas,NTX Wide,Texas,Texas Statewide,BM Texas,TX-OK,N.America,Worldwide,WW Eng,BM WW,DCI Bridge,TAC 310,Parrot,Audio Test,AMSAT,TGIF
-MDK Static,Static Tgs,Low,430.4375,439.4375,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
-MDK Wide,Dynamic Tgs,Low,430.4375,439.4375,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+Zone Name,Comment,Power,RX Freq,TX Freq,Color Code,Local,Local-Cluster,N.Texas,NTX Wide,Texas,Texas Statewide,BM Texas,TX ARES,Ark-La-Tex,Arkansas,NC Ark,N.America,Worldwide,WW Eng,BM WW,DCI Bridge,TAC 310,Parrot,Audio Test,AMSAT,TGIF,Pinoy,PI Emergency,DX Pinoy,Pinoy DU5,Pinoy DU6,REACT,USA-0,USA-1,USA-2,USA-3,USA-4,USA-5,USA-6,USA-7,USA-8,USA-9,Pi-Star,Disconnect
+MDK Static,Static Tgs,Low,430.4375,439.4375,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+MDK Wide,Dynamic Tgs,Low,430.4375,439.4375,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
