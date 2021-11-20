@@ -26,5 +26,5 @@ CodeplugRecipe(
     output_anytone=True,
     output_dmrconfig=[(cp_dir / "example-d878uv.conf")],
     output_farnsworth=[(cp_dir / "example-md-uv380.json")],
-    output_gb3gf=True
+    output_gb3gf=True,
 ).generate(output / cp_dir.name)
