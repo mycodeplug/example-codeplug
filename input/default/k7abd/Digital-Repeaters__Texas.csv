@@ -1,7 +1,7 @@
 Zone Name,Comment,Power,RX Freq,TX Freq,Color Code,Local-Cluster,N.Texas,NTX Wide,Texas,Texas Statewide,BM Texas,TX-OK,N.America,Worldwide,WW Eng,BM WW,DCI Bridge,TAC 310,TAC 311,TAC 312,TAC 311,Parrot,Audio Test,AMSAT,S.Plains,Cactus,TGIF
 McKinney,N5GI,Turbo,145.35,144.75,1,2,2,-,2,2,-,-,-,-,-,,-,-,-,-,-,-,-,-,-,-,-
 McKinney,N5ITU,Turbo,441.3375,446.3375,1,-,-,-,-,-,-,-,-,-,-,,-,1,-,-,-,-,-,-,-,-,-
-McKinney,N5GI,Turbo,442.575,"	447.57500",1,2,2,-,2,2,-,-,-,-,-,,-,-,-,-,-,-,-,-,-,-,-
+McKinney,N5GI,Turbo,442.575,447.575,1,2,2,-,2,2,-,-,-,-,-,,-,-,-,-,-,-,-,-,-,-,-
 Anna,WS5W,Turbo,440.525,445.525,1,2,-,-,2,2,-,-,1,1,1,,-,-,-,-,-,-,-,-,-,-,-
 Fairview,N5ITU,Turbo,441.3375,446.3375,2,2,2,-,2,2,-,-,1,1,1,,2,2,-,-,-,2,2,-,-,-,-
 Farmersville,WA5DKW,Turbo,440.0125,445.0125,1,1,-,1,,2,2,-,-,-,-,2,-,-,-,-,-,-,-,-,-,-,-
