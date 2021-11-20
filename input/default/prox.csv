@@ -1,19 +1,14 @@
 Zone Name,Lat,Long,Distance,Unit,Band(2m;1.25m;70cm),Use,Operational Status
-Longview WA VHF 35mi,46.13819885,-122.93800354,35,miles,2m,OPEN,On-Air
-Longview WA UHF 35mi,46.13819885,-122.93800354,35,miles,70cm,OPEN,On-Air
-Astoria OR VHF 30mi,46.18790054,-123.83100128,30,miles,2m,OPEN,On-Air
-Astoria OR UHF 30mi,46.18790054,-123.83100128,30,miles,70cm,OPEN,On-Air
-Portland OR VHF 30mi,45.52310181,-122.67600250,30,miles,2m,OPEN,On-Air
-Portland OR UHF 30mi,45.52310181,-122.67600250,30,miles,70cm,OPEN,On-Air
-Salem OR VHF 39mi,44.94290161,-123.03500366,39,miles,2m,OPEN,On-Air
-Salem OR UHF 39mi,44.94290161,-123.03500366,39,miles,70cm,OPEN,On-Air
-Hood River OR VHF 35mi,45.70539856,-121.52100372,35,miles,2m,OPEN,On-Air
-Hood River OR UHF 35mi,45.70539856,-121.52100372,35,miles,70cm,OPEN,On-Air
-Olympia WA VHF 30mi,47.03789902,-122.90100098,30,miles,2m,OPEN,On-Air
-Olympia WA UHF 30mi,47.03789902,-122.90100098,30,miles,70cm,OPEN,On-Air
-Packwood WA VHF 40mi,46.60649872,-121.67099762,40,miles,2m,OPEN,On-Air
-Packwood WA UHF 40mi,46.60649872,-121.67099762,40,miles,70cm,OPEN,On-Air
-Seattle WA VHF 45mi,47.60620117,-122.33200073,45,miles,2m,OPEN,On-Air
-Seattle WA UHF 45mi,47.60620117,-122.33200073,45,miles,70cm,OPEN,On-Air
-Burlington WA VHF 45mi,48.47570038,-122.32499695,45,miles,2m,OPEN,On-Air
-Burlington WA UHF 45mi,48.47570038,-122.32499695,45,miles,70cm,OPEN,On-Air
+McKinney,33.21786,-96.6339,3,miles,2m,OPEN,On-Air
+McKinney,33.21786,-96.6339,3,miles,70cm,OPEN,On-Air
+Anna,33.349,-96.5485,12,miles,70cm,OPEN,On-Air
+Farmersville,33.16344,-96.3599,17,miles,70cm,OPEN,On-Air
+Allen,33.1031,-96.6709,7,miles,70cm,OPEN,On-Air
+Plano,33.0196,-96.6992,14,miles,70cm,OPEN,On-Air
+Fairview,33.1579,-96.63166,3,miles,70cm,OPEN,On-Air
+Murphy,33.01512,-96.61305,13,miles,70cm,OPEN,On-Air
+Richardson,32.94818,-96.72972,18,miles,70cm,OPEN,On-Air
+Melissa,33.28595,-96.57277,12,miles,70cm,OPEN,On-Air
+Celina,33.32593,-96.7792,11,miles,70cm,OPEN,On-Air
+Prosper,33.23623,-96.80111,6,miles,70cm,OPEN,On-Air
+Dallas,32.78306,-96.80667,20,miles,70cm,OPEN,On-Air
