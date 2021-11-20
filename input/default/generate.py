@@ -14,7 +14,7 @@ output = Path(os.environ.get("OUTPUT") or (cp_dir / ".." / ".." / "OUTPUT"))
 CodeplugRecipe(
     source_pnwdigital=False,
     source_seattledmr=False,
-    source_default_k7abd=False,
+    source_default_k7abd=True,
     source_k7abd=[(cp_dir / "k7abd")],
     source_repeaterbook_proximity=cp_dir / "prox.csv",
     repeaterbook_states=["texas"],
