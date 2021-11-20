@@ -11,7 +11,7 @@ python -m dzcb \
     --default-k7abd \
     --k7abd $DIR/k7abd \
     --repeaterbook-proximity-csv "$DIR/prox.csv" \
-    --repeaterbook-state washington \
+    --repeaterbook-state texas \
     --repeaterbook-name-format '{Callsign} {Nearest City} {Landmark}' \
     --scanlists-json "$DIR/scanlists.json" \
     --exclude "$DIR/exclude.csv" \
