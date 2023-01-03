@@ -1,0 +1,8 @@
+Zone,Channel Name,Bandwidth,Power,RX Freq,TX Freq,CTCSS Decode,CTCSS Encode,TX Prohibit
+WX,WX.1,25K,Low,162.55,146.58,Off,Off,On
+WX,WX.2,25K,Low,162.4,146.58,Off,Off,On
+WX,WX.3,25K,Low,162.475,146.58,Off,Off,On
+WX,WX.4,25K,Low,162.425,146.58,Off,Off,On
+WX,WX.5,25K,Low,162.45,146.58,Off,Off,On
+WX,WX.6,25K,Low,162.5,146.58,Off,Off,On
+WX,WX.7,25K,Low,162.525,146.58,Off,Off,On
